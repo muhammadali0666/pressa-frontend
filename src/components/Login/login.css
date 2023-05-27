@@ -1,0 +1,76 @@
+.login_inner {
+  padding-top: 60px;
+}
+
+.login_logo {
+  margin-bottom: 167px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  color: #006AFF;
+}
+
+.login_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login_paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #222222;
+  margin-bottom: 50px;
+  margin-top: 107px;
+}
+
+.login_mini_box {
+  margin-left: -40px;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login_input {
+  width: 499px;
+  border: 1px solid rgba(15, 24, 38, 0.2);
+  border-radius: 4px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 41px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.login_check {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+}
+
+.login_btn {
+  background: #006AFF;
+  border-radius: 4px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+  padding: 16px 50px;
+}

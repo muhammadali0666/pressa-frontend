@@ -1,0 +1,71 @@
+.admin_navbar {
+  display: flex;
+  border-top: 1px solid #CCD7E0;
+  border-bottom: 1px solid #CCD7E0;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  margin-top: 31px;
+}
+
+.admin_navbar_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  opacity: 0.4;
+  border: none;
+  background-color: transparent;
+  padding: 14px 20px;
+}
+
+.panding {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  opacity: 0.4;
+  border: none;
+  background-color: transparent;
+  padding: 14px 20px;
+  transition: all 1s ease;
+}
+
+.active {
+  background: #016BFF;
+  border-radius: 50px;
+  opacity: 1;
+  color: #fff;
+  transition: all 1s ease;
+}
+
+.admin_navbar_btn+.admin_navbar_btn {
+  margin-left: 20px;
+  padding: 15px 25px;
+}
+
+.admin_navbar_box {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.admin_navbar_btns {
+  padding: 14px 20px;
+}
+
+.admin_navbar_checkbox {
+  background: #FFFFFF;
+  border: 1px solid rgba(51, 51, 51, 0.7);
+  border-radius: 50%;
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.admin_navbar_label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}

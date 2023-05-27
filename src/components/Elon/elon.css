@@ -1,0 +1,17 @@
+.elon_inner {
+  padding-top: 43px;
+  padding-bottom: 128px;
+}
+.elon_top_box-one {
+  display: flex;
+}
+.elon_top_img {
+  margin-right: 13px;
+}
+.elon_top_p {
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}

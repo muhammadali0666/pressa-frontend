@@ -1,0 +1,425 @@
+/* .tashkilotchi {} */
+
+.elon_top {
+  background: #FFFFFF;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  border-radius: 2px;
+  width: 735px;
+  padding: 40px;
+  margin-top: 37px;
+}
+
+/* .elon_date_box {} */
+
+.elon_date_paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.elon_date_p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+  opacity: 0.4;
+  margin-bottom: 14px;
+}
+
+/* .elon_date__top_box {} */
+
+.elon_date_input {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+}
+
+.elon_date_input+.elon_date_input {
+  margin-left: 40px;
+}
+
+.elon_date__middle_box {
+  margin-top: 30px;
+  display: flex;
+}
+
+/* .elon_date__middle_box_mini {} */
+
+.elon_date_middle_select_p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+}
+
+.elon_date_middle_select {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+}
+
+/* .elon_date_middle_option {} */
+
+.elon_date__bottom_box {
+  display: flex;
+}
+
+/* .elon_date__bottom_box_left {} */
+
+.elon_date_bottom_select_p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+  margin-top: 30px;
+}
+
+.elon_date__bottom_box_mini_inner {
+  display: flex;
+}
+
+.elon_date__bottom_box_mini_btn {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+}
+
+.elon_date__bottom_box_right {
+  margin-left: 30px;
+}
+
+.elon_inner {
+  padding-top: 43px;
+  padding-bottom: 128px;
+}
+.elon_top_box-one {
+  display: flex;
+}
+.elon_top_img {
+  margin-right: 13px;
+}
+.elon_top_p {
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+
+.tashkilotchi_p {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 28px;
+}
+
+.tashkilotchi_bottom {
+  background: #FFFFFF;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  border-radius: 2px;
+  max-width: 735px;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.tashkilotchi_label_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .tashkilotchi_left {} */
+
+.tashkilotchi_label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.tashkilotchi_input {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+  width: 310px;
+}
+
+.tashkilotchi_right {
+  margin-left: 50px;
+}
+
+/* .tashkilotchi {} */
+
+.tashkilotchi_p {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 28px;
+}
+
+.tashkilotchi_bottom {
+  background: #FFFFFF;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  border-radius: 2px;
+  max-width: 735px;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.tashkilotchi_label_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .tashkilotchi_left {} */
+
+.tashkilotchi_label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.tashkilotchi_input {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+  width: 310px;
+}
+
+.tashkilotchi_right {
+  margin-left: 50px;
+}
+
+.elon_bottom {
+  background: #FFFFFF;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  border-radius: 2px;
+  padding: 30px;
+  width: 735px;
+  margin-top: 50px;
+  margin-bottom: 128px;
+}
+
+.elon_btns_mini {
+  display: flex;
+}
+
+.elon_bottom-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.elon_bottom_paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: #333333;
+  opacity: 0.2;
+  margin-bottom: 50px;
+}
+
+.elon_bottom_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.elon_bottom_label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.elon_bottom_input {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+}
+
+.elon_btns_box {
+  margin-top: 41px;
+}
+
+.elon_btn_p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+/* .elon_btns_mini {} */
+
+.elon_btns_one {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+opacity: 0.7;
+}
+
+.elon_btns_one+.elon_btns_one {
+  margin-left: 30px;
+}
+
+.elon_btns_bottom_p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #006AFF;
+  margin-top: 20px;
+}
+
+.elon_textarea_box {
+  margin-top: 61px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.elon_textarea_p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+/* .elon_send_box {} */
+
+.elon_textarea {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+}
+
+.elon_send_btn {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+}
+
+.elon_send_btn:hover {
+  background: #006AFF;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.elon_send_btn+.elon_send_btn {
+  margin-left: 30px;
+}
+
+.pending {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+}

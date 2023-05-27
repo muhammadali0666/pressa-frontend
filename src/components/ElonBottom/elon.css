@@ -1,0 +1,158 @@
+.elon_bottom {
+  background: #FFFFFF;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  border-radius: 2px;
+  padding: 30px;
+  width: 735px;
+  margin-top: 50px;
+  margin-bottom: 128px;
+}
+
+.elon_btns_mini {
+  display: flex;
+}
+
+.elon_bottom-p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.elon_bottom_paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: #333333;
+  opacity: 0.2;
+  margin-bottom: 50px;
+}
+
+.elon_bottom_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.elon_bottom_label {
+  font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #333333;
+margin-bottom: 10px;
+}
+
+.elon_bottom_input {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  background-color: #f3f3f3;
+}
+
+.elon_btns_box {
+  margin-top: 41px;
+}
+
+.elon_btn_p {
+  font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #333333;
+margin-bottom: 10px;
+}
+
+/* .elon_btns_mini {} */
+
+.elon_btns_one {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+
+}
+
+.elon_btns_one + .elon_btns_one {
+  margin-left: 30px;
+}
+
+.elon_btns_bottom_p {
+  font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 19px;
+color: #006AFF;
+margin-top: 20px;
+}
+
+.elon_textarea_box {
+  margin-top: 61px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.elon_textarea_p {
+  font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #333333;
+margin-bottom: 10px;
+}
+
+/* .elon_send_box {} */
+
+.elon_textarea {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+}
+
+.elon_send_btn {
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 17px;
+  border-radius: 3px;
+  color: #000;
+  border: none;
+  outline: none;
+  background-color: #f3f3f3;
+}
+
+.elon_send_btn:hover {
+  background: #006AFF;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.elon_send_btn + .elon_send_btn {
+  margin-left: 30px;
+}

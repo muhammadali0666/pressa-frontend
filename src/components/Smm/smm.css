@@ -1,0 +1,23 @@
+.smm_inner {
+  margin-bottom: 129px;
+}
+.smm_box {
+  display: flex;
+}
+.smm_card {
+  max-width: 625px;
+  display: flex;
+  align-items: end;
+  background: #055BD3;
+border-radius: 5px;
+height: 301px;
+}
+.smm_text {
+  font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 50px;
+color: #FFFFFF;
+margin-left: 30px;
+margin-bottom: 81px;
+}
