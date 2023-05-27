@@ -43,7 +43,7 @@ export const ElonBerish = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        fetch("http://localhost:4001/card", {
+        fetch("https://pressa-backend-end.onrender.com/card", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -63,7 +63,7 @@ export const ElonBerish = () => {
       })
       .catch((error) => console.log(error));
     alert("added card");
-    window.location.href = "http://localhost:5173/home";
+    window.location.href = "/home";
   };
 
   //////////////////////////////////////////////////////////

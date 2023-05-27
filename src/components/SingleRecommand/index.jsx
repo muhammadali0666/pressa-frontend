@@ -12,7 +12,7 @@ export const Recommad = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4001/get_card")
+    fetch("https://pressa-backend-end.onrender.com/get_card")
       .then((res) => res.json())
       .then((mydata) => setData(mydata));
   }, []);

@@ -15,7 +15,7 @@ export const Login = () => {
       password: password,
     };
 
-    fetch("http://localhost:4001/login", {
+    fetch("https://pressa-backend-end.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

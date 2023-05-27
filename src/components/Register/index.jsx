@@ -17,7 +17,7 @@ export const Register = () => {
       password: password
     }
 
-    fetch("http://localhost:4001/register", {
+    fetch("https://pressa-backend-end.onrender.com/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

@@ -8,7 +8,7 @@ export const SidebarHeader = ({ setSearch }) => {
     e.preventDefault();
     const { search } = e.target;
 
-    await fetch("http://localhost:4001/search", {
+    await fetch("https://pressa-backend-end.onrender.com/search", {
       method: "GET",
       headers: { search: search.value },
     })

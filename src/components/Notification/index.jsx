@@ -5,13 +5,13 @@ export const Notification = ({ search }) => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4001/get_card")
+    fetch("https://pressa-backend-end.onrender.com/get_card")
       .then((res) => res.json())
       .then((mydata) => setData(mydata));
   }, []);
 
   const handleData = (e) => {
-    fetch(`http://localhost:4001/update_annon/${e.id}`, {
+    fetch(`https://pressa-backend-end.onrender.com/update_annon/${e.id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -32,7 +32,7 @@ export const Notification = ({ search }) => {
   ////////////////////////////////////////////////////////////
 
   const handleCancel = (e) => {
-    fetch(`http://localhost:4001/update_active/${e.id}`, {
+    fetch(`https://pressa-backend-end.onrender.com/update_active/${e.id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

@@ -5,7 +5,7 @@ export const Hero = ({ setInfo }) => {
   const [dataCard, setDataCard] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4001/get_card")
+    fetch("https://pressa-backend-end.onrender.com/get_card")
       .then((res) => res.json())
       .then((mydata) => setDataCard(mydata));
   }, []);
@@ -16,7 +16,7 @@ export const Hero = ({ setInfo }) => {
     e.preventDefault();
     const { date, network } = e.target;
 
-    await fetch("http://localhost:4001/search", {
+    await fetch("https://pressa-backend-end.onrender.com/search", {
       method: "GET",
       headers: {
         search: date.value || network.value
