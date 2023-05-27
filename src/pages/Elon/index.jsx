@@ -59,11 +59,13 @@ export const ElonBerish = () => {
             network: network,
             phoneNumber: phoneNumber,
           }),
-        });
-      })
-      .catch((error) => console.log(error));
-    alert("added card");
-    window.location.href = "/home";
+        })
+          .then((e) => e.json())
+          .then((data) => alert(data.msg))
+          .catch((error) => console.log(error));
+          alert("added card")
+          window.location.reload(true);
+      });
   };
 
   //////////////////////////////////////////////////////////
