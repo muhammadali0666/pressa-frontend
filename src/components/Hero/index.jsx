@@ -45,12 +45,12 @@ export const Hero = ({ setInfo }) => {
               Eng so’ngi master klasslar va tadbirlar bizning saytda
             </h1>
             <ul className="hero_list">
-              <li className="hero_item">
+              <li className="hero_item hero_item_1">
                 <div className="hero_box">
                   <input type="date" className="hero_input" name="date" />
                 </div>
               </li>
-              <li className="hero_item">
+              <li className="hero_item hero_item_2">
                 <select className="hero_select">
                   <option className="hero_option">Bo'limni tanlang</option>
                   <option value="1" className="hero_option">
@@ -115,7 +115,7 @@ export const Hero = ({ setInfo }) => {
                   <input type="radio" name="web9" value="Fizka"/>
                     Fizika
                   </option> */}
-              <li className="hero_item">
+              <li className="hero_item hero_item_3">
                 <div className="hero_item_box_mini">
                   <label className="search_radio_input" form="radio">
                     <input
@@ -146,7 +146,7 @@ export const Hero = ({ setInfo }) => {
                   </option>
                 </select> */}
               </li>
-              <li className="hero_item">
+              <li className="hero_item hero_item_4">
                 <select name="fullname" id="" className="hero_select">
                   <label value="" className="hero_option">
                     Ism-familya
@@ -162,7 +162,7 @@ export const Hero = ({ setInfo }) => {
                   )}
                 </select>
               </li>
-              <li className="hero_item">
+              <li className="hero_item hero_item_5">
                 <button className="hero_btn" type="submit">
                   Izlash
                 </button>

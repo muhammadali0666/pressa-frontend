@@ -4,7 +4,6 @@ import "./header.css";
 import { NavLink } from "react-router-dom";
 
 export const Header = ({ setInfo }) => {
-
   const searchFunction = async (e) => {
     e.preventDefault();
     const { search } = e.target;
@@ -29,6 +28,11 @@ export const Header = ({ setInfo }) => {
     <div className="header">
       <div className="container">
         <div className="header_inner">
+          <input type="checkbox" name="check" id="check" />
+          <label for="check">
+            <i class="bx bx-menu" id="btn"></i>
+            <i class="bx bx-x" id="cancel"></i>
+          </label>
           <NavLink to="/home" className="header_logo">
             <img
               src={Logo}

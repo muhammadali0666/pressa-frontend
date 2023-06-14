@@ -15,7 +15,6 @@ export const ElonBerish = () => {
   const [time, setTime] = useState("");
   const [network, setNetwork] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
-
   const [isActive, setIsActive] = useState(false);
 
   const handleClick = (event) => {
@@ -63,8 +62,8 @@ export const ElonBerish = () => {
           .then((e) => e.json())
           .then((data) => alert(data.msg))
           .catch((error) => console.log(error));
-          alert("added card")
-          window.location.reload(true);
+        alert("added card");
+        window.location.reload(true);
       });
   };
 

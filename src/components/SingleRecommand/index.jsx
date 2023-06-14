@@ -25,7 +25,7 @@ export const Recommad = () => {
             {e.isActive === true && e.isApply === true && (
                 <div className="recommand">
                   <img
-                    src={Announ}
+                    src={e.img}
                     alt="img"
                     width={407}
                     height={417}

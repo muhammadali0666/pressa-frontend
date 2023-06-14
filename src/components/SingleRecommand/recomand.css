@@ -12,41 +12,164 @@
   border-radius: 5px;
   margin-bottom: 65px;
 }
-.recommand + .recommand {
+
+.recommand+.recommand {
   margin-left: 30px;
 }
+
 .recomand_img {
-border-radius: 5px;
+  border-radius: 5px;
 }
+
 .recommand_box {
-padding: 20px;
+  padding: 20px;
 }
+
 .recommadn_paragraph {
   font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 34px;
-color: #333333;
-margin-bottom: 26px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  color: #333333;
+  margin-bottom: 26px;
 }
+
 .recommand_mini_box {
   display: flex;
 }
+
 .recommad_list {
   padding-left: 0;
 }
+
 .recommand_item {
   display: flex;
   margin-bottom: 20px;
 }
+
 .recommand_mini_icon {
   margin-right: 12px;
 }
+
 .recommand_mini_p {
   font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-color: #333333;
-margin-bottom: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  margin-bottom: 0;
+}
+
+@media (max-width: 890px) {
+  .reco_wrapper {
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 143px;
+  }
+
+  .recommand {
+    max-width: 358px;
+    border-radius: 5px;
+    margin-bottom: 65px;
+  }
+
+  .recommand+.recommand {
+    margin-left: 20px;
+  }
+
+  .recomand_img {
+    border-radius: 5px;
+    width: 357px;
+    height: 357px;
+  }
+
+  .recommand_box {
+    padding: 15px;
+  }
+
+  .recommadn_paragraph {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 26px;
+  }
+
+  .recommand_mini_box {
+    display: flex;
+  }
+
+  .recommad_list {
+    padding-left: 0;
+  }
+
+  .recommand_item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .recommand_mini_icon {
+    margin-right: 12px;
+  }
+
+  .recommand_mini_p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .reco_wrapper {
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 143px;
+  }
+
+  .recommand {
+    max-width: 258px;
+    border-radius: 5px;
+    margin-bottom: 65px;
+  }
+
+  .recommand+.recommand {
+    margin-left: 20px;
+  }
+
+  .recomand_img {
+    border-radius: 5px;
+    width: 257px;
+    height: 257px;
+  }
+
+  .recommand_box {
+    padding: 15px;
+  }
+
+  .recommadn_paragraph {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 26px;
+  }
+
+  .recommand_mini_box {
+    display: flex;
+  }
+
+  .recommad_list {
+    padding-left: 0;
+  }
+
+  .recommand_item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .recommand_mini_icon {
+    margin-right: 12px;
+  }
+
+  .recommand_mini_p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0;
+  }
 }

@@ -48,3 +48,138 @@
   line-height: 40px;
   color: #3a3a3a;
 }
+
+@media (max-width: 1020px) {
+  .biz_inner {
+    padding-top: 43px;
+    padding-bottom: 191px;
+  }
+  
+  .biz_top_box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .biz_img {
+    margin-right: 13px;
+    margin-bottom: 15px;
+  }
+  
+  .biz_top_p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .biz_top_p_bottom {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    margin-top: 71px;
+    margin-bottom: 40px;
+  }
+  
+  .biz_text {
+    max-width: 840px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .biz_bottom {
+    max-width: 840px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .biz_inner {
+    padding-top: 43px;
+    padding-bottom: 121px;
+  }
+  
+  .biz_top_box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .biz_img {
+    margin-right: 13px;
+    margin-bottom: 15px;
+  }
+  
+  .biz_top_p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .biz_top_p_bottom {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 51px;
+    margin-bottom: 40px;
+  }
+  
+  .biz_text {
+    max-width: 840px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .biz_bottom {
+    max-width: 840px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .biz_inner {
+    padding-top: 43px;
+    padding-bottom: 100px;
+  }
+  
+  .biz_top_box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .biz_img {
+    margin-right: 13px;
+    margin-bottom: 15px;
+  }
+  
+  .biz_top_p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  
+  .biz_top_p_bottom {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 31px;
+    margin-bottom: 20px;
+  }
+  
+  .biz_text {
+    max-width: 840px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .biz_bottom {
+    max-width: 840px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

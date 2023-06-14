@@ -3,6 +3,7 @@ import { Layouts } from "../../components/Layouts";
 import { SingleLeft } from "../../components/SingleLeft";
 import { SingleRighr } from "../../components/SingleRight";
 import { Recommad } from "../../components/SingleRecommand";
+import "./singlePage.css"
 
 export const SinglePage = () => {
   return (
