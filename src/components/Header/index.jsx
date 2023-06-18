@@ -29,9 +29,9 @@ export const Header = ({ setInfo }) => {
       <div className="container">
         <div className="header_inner">
           <input type="checkbox" name="check" id="check" />
-          <label for="check">
-            <i class="bx bx-menu" id="btn"></i>
-            <i class="bx bx-x" id="cancel"></i>
+          <label htmlFor="check">
+            <i className="bx bx-menu" id="btn"></i>
+            <i className="bx bx-x" id="cancel"></i>
           </label>
           <NavLink to="/home" className="header_logo">
             <img

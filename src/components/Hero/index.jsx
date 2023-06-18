@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 
 export const Hero = ({ setInfo }) => {
   const [dataCard, setDataCard] = useState([]);
+  const [fullname, setFullname] = useState("");
+  const [profession, setProfession] = useState("");
 
   useEffect(() => {
     fetch("https://pressa-backend-end.onrender.com/get_card")
@@ -19,7 +21,7 @@ export const Hero = ({ setInfo }) => {
     await fetch("https://pressa-backend-end.onrender.com/search", {
       method: "GET",
       headers: {
-        search: date.value || network.value
+        search: date.value || network.value || fullname || profession,
       },
     })
       .then((res) => res.json())
@@ -32,7 +34,8 @@ export const Hero = ({ setInfo }) => {
         }
       });
     date.value = "";
-    // profession.value = "";
+    setFullname("");
+    setProfession('')
     network.value = "";
   };
 
@@ -51,70 +54,27 @@ export const Hero = ({ setInfo }) => {
                 </div>
               </li>
               <li className="hero_item hero_item_2">
-                <select className="hero_select">
-                  <option className="hero_option">Bo'limni tanlang</option>
-                  <option value="1" className="hero_option">
-                    <input
-                      type="radio"
-                      name="profession"
-                      value="developer"
-                    />
-                    developer
-                  </option>
+                <select
+                  className="hero_select"
+                  defaultValue=""
+                  onChange={(e) => setProfession(e.target.value)}
+                >
+                  Bo'limni tanlang
+                  {dataCard.map(
+                    (e, idx) =>
+                      e.isActive === true &&
+                      e.isApply === true && (
+                        <option
+                          value={e.profession}
+                          className="hero_option"
+                          key={idx}
+                        >
+                          {e.profession}
+                        </option>
+                      )
+                  )}
                 </select>
               </li>
-              {/* <option value="2" className="hero_option">
-                  <input type="radio" name="web1" value="Mobile dasturlash"/>
-                    Mobile dasturlash
-                  </option> */}
-              {/* <option
-                    style={{ fontSize: "20px", color: "#000" }}
-                  
-                    className="hero_option"
-                  >
-                    <input type="radio" name="web2" value="Dizayn"/>
-                    Dizayn
-                  </option> */}
-              {/* <option className="hero_option">
-                  <input type="radio" name="web3" value="UX/UI dizayn"/>
-                    UX/UI dizayn
-                  </option>
-                  <option className="hero_option">
-                  <input type="radio" name="web4" value="Mobile dasturlash"/>
-                    Grafik dizayn
-                  </option>
-                  <option
-                    style={{ fontSize: "20px", color: "#000" }}
-                  
-                    className="hero_option"
-                  >
-                    <input type="radio" name="web5" value="Biznes"/>
-                    Biznes
-                  </option>
-                  <option className="hero_option">
-                  <input type="radio" name="web" value="Menegment"/>
-                    Menegment
-                  </option>
-                  <option className="hero_option">
-                  <input type="radio" name="web6" value="Kredit va audit"/>
-                    Kredit va audit
-                  </option>
-                  <option
-                    style={{ fontSize: "20px", color: "#000" }}
-                  
-                    className="hero_option"
-                  >
-                    <input type="radio" name="web7" value="Ta'lim"/>
-                    Ta'lim
-                  </option>
-                  <option className="hero_option">
-                  <input type="radio" name="web8" value="Matematika"/>
-                    Matematika
-                  </option>
-                  <option className="hero_option">
-                  <input type="radio" name="web9" value="Fizka"/>
-                    Fizika
-                  </option> */}
               <li className="hero_item hero_item_3">
                 <div className="hero_item_box_mini">
                   <label className="search_radio_input" form="radio">
@@ -147,15 +107,22 @@ export const Hero = ({ setInfo }) => {
                 </select> */}
               </li>
               <li className="hero_item hero_item_4">
-                <select name="fullname" id="" className="hero_select">
-                  <label value="" className="hero_option">
-                    Ism-familya
-                  </label>
+                <select
+                  name="fullname"
+                  className="hero_select"
+                  defaultValue=""
+                  onChange={(e) => setFullname(e.target.value)}
+                >
+                  Ism-familya
                   {dataCard.map(
                     (e, idx) =>
                       e.isActive === true &&
                       e.isApply === true && (
-                        <option value="" className="hero_option" key={idx}>
+                        <option
+                          value={e.fullname}
+                          className="hero_option"
+                          key={idx}
+                        >
                           {e.fullname}
                         </option>
                       )

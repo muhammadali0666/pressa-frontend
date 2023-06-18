@@ -69,3 +69,102 @@
   line-height: 17px;
   color: #333333;
 }
+
+@media (max-width: 946px) {
+  .admin_navbar {
+    display: flex;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    margin-top: 31px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .admin_navbar_btn {
+    font-size: 17px;
+    line-height: 20px;
+    padding: 14px 20px;
+  }
+  
+  .panding {
+    font-size: 17px;
+    line-height: 20px;
+    padding: 14px 20px;
+  }
+  
+  .admin_navbar_btn+.admin_navbar_btn {
+    margin-left: 20px;
+    padding: 15px 25px;
+  }
+  
+  .admin_navbar_box {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .admin_navbar_btns {
+    padding: 14px 20px;
+  }
+  
+  .admin_navbar_checkbox {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .admin_navbar_label {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media (max-width: 800px) {
+  .admin_navbar {
+    display: flex;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    margin-top: 31px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  
+  .admin_navbar_btn {
+    font-size: 17px;
+    line-height: 20px;
+    padding: 14px 20px;
+  }
+  
+  .panding {
+    font-size: 17px;
+    line-height: 20px;
+    padding: 14px 20px;
+  }
+  
+  .admin_navbar_btn+.admin_navbar_btn {
+    margin-left: 20px;
+    padding: 15px 25px;
+  }
+  
+  .admin_navbar_box {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+  }
+  
+  .admin_navbar_btns {
+    padding: 14px 20px;
+  }
+  
+  .admin_navbar_checkbox {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .admin_navbar_label {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

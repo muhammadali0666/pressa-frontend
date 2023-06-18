@@ -1,3 +1,10 @@
 .admin_box_inner{
   margin-left: 300px !important;
 }
+
+@media (max-width: 800px) {
+
+  .admin_box_inner{
+    margin-left: 200px !important;
+  }
+}

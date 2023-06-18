@@ -72,7 +72,7 @@ export const SingleLeft = () => {
             </div>
             <ul className="single_box_left_p_bottom_list">
               <li className="single_box_left_p_bottom_item">
-                <a href="#" className="single_box_left_p_bottom_link">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100076524691842&mibextid=ZbWKwL" className="single_box_left_p_bottom_link">
                   <img
                     src={Facebook}
                     alt="icon"
@@ -94,7 +94,7 @@ export const SingleLeft = () => {
                 </a>
               </li>
               <li className="single_box_left_p_bottom_item">
-                <a href="#" className="single_box_left_p_bottom_link">
+                <a  target="_blank" href="https://www.instagram.com/muhammadali122222/?igshid=ZDc4ODBmNjlmNQ%3D%3D" className="single_box_left_p_bottom_link">
                   <img
                     src={Insta}
                     alt="icon"
@@ -105,7 +105,7 @@ export const SingleLeft = () => {
                 </a>
               </li>
               <li className="single_box_left_p_bottom_item">
-                <a href="#" className="single_box_left_p_bottom_link">
+                <a href='#' className="single_box_left_p_bottom_link">
                   <img
                     src={Bird}
                     alt="icon"
@@ -116,7 +116,7 @@ export const SingleLeft = () => {
                 </a>
               </li>
               <li className="single_box_left_p_bottom_item">
-                <a href="#" className="single_box_left_p_bottom_link">
+                <a target="_blank" href="https://t.me/Sh_Muhammadali5" className="single_box_left_p_bottom_link">
                   <img
                     src={Tel}
                     alt="icon"

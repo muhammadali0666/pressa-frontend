@@ -4,16 +4,28 @@ import { NavLink } from "react-router-dom";
 export const AdminNavbar = () => {
   return (
     <div className="admin_navbar">
-      <NavLink className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "active" : ""}  to="/waiting">
+      <NavLink
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "active" : ""
+        }
+        to="/waiting"
+      >
         <button className="admin_navbar_btn">Kutilmoqda</button>
       </NavLink>
-      <NavLink className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "active" : ""} to="/accepted">
+      <NavLink
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "active" : ""
+        }
+        to="/accepted"
+      >
         <button className="admin_navbar_btn">Qabul qilingan</button>
       </NavLink>
-      <NavLink className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "active" : ""} to="/canceled">
+      <NavLink
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "active" : ""
+        }
+        to="/canceled"
+      >
         <button className="admin_navbar_btn">Rad etilgan</button>
       </NavLink>
       <div className="admin_navbar_box">
