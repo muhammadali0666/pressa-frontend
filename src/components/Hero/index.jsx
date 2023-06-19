@@ -50,7 +50,7 @@ export const Hero = ({ setInfo }) => {
             <ul className="hero_list">
               <li className="hero_item hero_item_1">
                 <div className="hero_box">
-                  <input type="date" className="hero_input" name="date" />
+                  <input type="date" className="hero_input" name="date" placeholder="date"/>
                 </div>
               </li>
               <li className="hero_item hero_item_2">
